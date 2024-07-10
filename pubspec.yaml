@@ -1,0 +1,24 @@
+name: dataidea
+description: "Learn Programming for Data Science"
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^3.0.4
+  google_nav_bar: ^5.0.6
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/ic_launcher.png
